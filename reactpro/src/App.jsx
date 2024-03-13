@@ -5,11 +5,17 @@ import Footer from "./components/Footer"
 import IconPage from './IconPage'
 import "./App.css";
 
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+
 function App() {
   return ( <div> 
+    <Router>
       <Header />
-      <Home />
+      <Switch>
+        <Route exact path= "/" component={Home} />
+      </Switch>
       <Footer />
+    </Router>
     </div> )
 }
 
