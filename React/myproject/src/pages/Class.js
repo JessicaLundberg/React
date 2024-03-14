@@ -9,6 +9,7 @@ import ekologi from '../media/ekologi.jpeg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
 class Class extends React.Component {
     render() {
@@ -37,7 +38,7 @@ class Class extends React.Component {
                     </div>
 
                     <div class="pagetitle">
-                        <a href="/Biologi1"><i class="fa fa-angle-left fa-2x"></i></a>
+                        <a href="/Biologi1"><FontAwesomeIcon icon={faAngleLeft} size="2x"/></a>
                         <h2 class="page-name">Lektioner</h2>
                     </div>
                     <div class="pagetext">Här finns alla lektioner för kursen Biologi 1</div>

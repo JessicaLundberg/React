@@ -11,6 +11,7 @@ import gymnasiearbete from '../media/gymnasiearbete.jpeg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
 class Kurser extends React.Component {
     render() {
@@ -40,7 +41,7 @@ class Kurser extends React.Component {
                     </div>
 
                     <div class="pagetitle">
-                        <a href="/"><i class="fa fa-angle-left fa-2x"></i></a>
+                        <a href="/"><FontAwesomeIcon icon={faAngleLeft} size="2x"/></a>
                         <h2 class="page-name">Kurser</h2>
                     </div>
                     <div class="pagetext">Vad vill du lära dig om idag?</div>

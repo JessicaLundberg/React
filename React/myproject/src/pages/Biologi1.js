@@ -8,6 +8,7 @@ import polyadenin from '../media/polyadenin.jpeg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
 class Biologi1 extends React.Component {
      render() {
@@ -35,7 +36,7 @@ class Biologi1 extends React.Component {
                          </div>
 
                          <div class="pagetitle">
-                              <a href="/Kurser"><i class="fa fa-angle-left fa-2x"></i></a>
+                              <a href="/Kurser"><FontAwesomeIcon icon={faAngleLeft} size="2x"/></a>
                               <h2 class="page-name">Biologi 1</h2>
                          </div>
 

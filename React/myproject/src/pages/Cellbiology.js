@@ -2,6 +2,7 @@ import React from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
 class Cellbiology extends React.Component {
     render() {
@@ -29,7 +30,7 @@ class Cellbiology extends React.Component {
                     </div>
 
                     <div class="pagetitle">
-                        <a href="/Class"><i class="fa fa-angle-left fa-2x"></i></a>
+                        <a href="/Class"><FontAwesomeIcon icon={faAngleLeft} size="2x"/></a>
                         <h2 class="page-name">Cellbiologi</h2>
                     </div>
 

@@ -1,8 +1,9 @@
 import React from "react";
+import LikeButton from "../components/Likebutton";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
 class Extra extends React.Component {
     render() {
@@ -31,10 +32,12 @@ class Extra extends React.Component {
                     </div>
 
                     <div class="pagetitle">
-                        <a href="/"><i class="fa fa-angle-left fa-2x"></i></a>
+                        <a href="/"><FontAwesomeIcon icon={faAngleLeft} size="2x"/></a>
                         <h2 class="page-name">Extra</h2>
                     </div>
                     <div class="pagetext">Här finns dem övriga kraven som inte passade in på hemsidan</div>
+
+                    <LikeButton className="likebutton" />
 
                     <div class="form">
                         <h2>Registrering för nyhetsbrev</h2>
